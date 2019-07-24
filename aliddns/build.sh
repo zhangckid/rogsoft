@@ -1,9 +1,9 @@
 #!/bin/sh
 
 MODULE="aliddns"
-VERSION="1.4"
+VERSION="1.41"
 TITLE="阿里DDNS"
-DESCRIPTION="aliddns"
+DESCRIPTION="aliddns-tkid"
 HOME_URL="Module_aliddns.asp"
 
 # Check and include base
