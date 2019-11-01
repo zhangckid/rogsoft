@@ -128,7 +128,7 @@ else
     dbus set aliddns_last_act="$now: success($ip)"
     nvram set ddns_enable_x=1
     #web ui show without @.
-	if [ "$aliddns_name" = "@" ] ;then
+	if [ "$aliddns_name" = "%40" ] ;then
 	 	nvram set ddns_hostname_x="$aliddns_domain"
 		nvram set ddns_updated="1"
 		nvram commit
