@@ -1,6 +1,6 @@
 {
 "version":"1.41",
-"md5":"83b165a67a02ed0520830a36830aad7a",
+"md5":"785fed99bc4f82b7bca825f3618875c9",
 "home_url":"Module_aliddns.asp",
 "title":"阿里DDNS",
 "description":"aliddns-tkid",
