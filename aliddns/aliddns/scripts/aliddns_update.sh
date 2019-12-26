@@ -83,7 +83,7 @@ get_recordid() {
 }
 
 query_recordid() {
-    send_request "DescribeSubDomainRecords" "SignatureMethod=HMAC-SHA1&SignatureNonce=$timestamp&SignatureVersion=1.0&SubDomain=$1.$2&Timestamp=$timestamp"
+    send_request "DescribeSubDomainRecords" "SignatureMethod=HMAC-SHA1&SignatureNonce=$timestamp&SignatureVersion=1.0&SubDomain=$1.$2&Timestamp=$timestamp&Type=A"
 }
 
 update_record() {
