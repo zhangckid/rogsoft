@@ -5,5 +5,5 @@
 "title":"阿里DDNS",
 "description":"aliddns-tkid",
 "changelog":"",
-"build_date":"2019-07-25_03:48:06"
+"build_date":"2019-12-26_11:28:06"
 }
